@@ -1,0 +1,5 @@
+*test*
+composer.lock
+*.key
+*.csr
+google*

@@ -1,0 +1,76 @@
+.cuerpo    {
+    background: url(img/fondoblanco.png);
+    width: 100%;
+    margin: 0 auto
+}
+.cuerpo > div
+{
+    width: 100%;
+    margin: 0 auto;
+}
+body
+{
+    background: url(img/fondo.png);
+    margin: 0;
+}
+img
+{
+    width: 100%;
+    height: auto;
+}
+.banner1
+{
+    width: 60%;
+    margin: 0 auto;
+}
+.combo1
+{
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    p
+    {
+        color: #ff0067;
+        font-size: 30px;
+    }
+}
+.infocombo
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    div
+    {
+        width: 30%;
+        margin: 10px auto;
+    }
+}
+.dino
+{
+    width: 42%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    .1
+    {
+        width: 30%;
+    margin: 0;
+    float: right;
+    }
+    .2{
+        width: 49%;
+    float: left;
+    margin-right: 120px;
+    margin-top: -80px;
+    }
+}
+.incluyen
+{
+    margin: 10px auto;
+    width: 80%;
+}

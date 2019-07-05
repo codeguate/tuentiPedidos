@@ -1,0 +1,639 @@
+@media only screen and (max-width : 1100px){
+    .banner1 img {
+        width: 100% !important;
+        margin: 0 auto;
+        display: flex;
+        margin-bottom: -5em;
+    }
+    #form3{
+        height: auto !important;
+    }
+}
+
+@media only screen and (min-width : 150px) and (max-width : 967px)  { 
+.terminostext
+{
+    
+        width: 80% !important;
+    height: 67% !important;
+    font-size: 11px !important;
+}
+.imageneslugares {
+    width: 90%!important;
+}
+.imageneslugares p{
+    font-size: 1em!important;
+}
+.terminostext ul
+{
+        width: 100% ;
+    margin: 0 auto ;
+    padding: 10px 0px 20px;
+    height: 80%;
+    overflow: scroll;
+}
+
+.dino .uno
+{
+    width: 35%;
+}
+.dino .dos{
+    margin-top: -125px;
+    width: 55%;
+}
+
+
+
+#formularios #form2 
+{
+    height: 1000px!important;
+
+}
+.incluyen
+{
+    width: 95%;
+}
+.terminostext
+{
+        width: 90%;
+    margin: 20px auto;
+    font-size: 15px;
+}
+
+#paso2 p
+{
+    width: 100%!important;text-align: left!important;
+    padding: 0px!important;
+}
+
+   .botones2 a
+{
+    margin: 5px!important;
+}
+.botones2 input
+{
+margin: 5px!important;
+}
+   .pequeñoform
+{
+    width: 100%!important;
+}
+body
+{
+    background-size: cover;
+}
+.doctor
+{
+        display: block;
+    width: 25%;
+    margin: 10px auto;
+}
+#formularios .dino
+{
+    display: none!important;
+}
+#formularios .banner1
+{
+    height: auto!important;
+    widows: 100%!important;
+}
+.infocombo
+{
+    width: 100%;
+}
+.combo1
+{
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+.combo1 p
+{
+    font-size: 20px;
+}
+.dino
+{
+    width: 100%;
+    margin: 20px auto;
+}
+.textinfo
+{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 20px;
+}
+.text1 p
+{
+    font-size: 12px;
+}
+.fondoblanco
+{
+    object-fit: cover;
+}
+.pedilo
+{
+    width: 90%;
+}
+.pedilo
+{
+    font-size: 20px;
+}
+.pedirtext
+{
+    font-size: 20px;
+
+}
+.terminos, .pedilo p
+{
+    text-align: center;
+    font-size:18px!important;
+}
+#formularios
+{
+    flex-wrap: wrap;
+    padding:0px;
+}
+#formularios > div
+{
+    width: 80%!important;
+    margin: 70px auto;
+}
+#btnform, #btnform2, #btnform3, #btnform4
+{
+    font-size: 1em!important;
+}
+footer .logo
+{    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+
+}
+footer .menu
+{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+footer .menu ul
+{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    align-items: center;
+    left: -40px;
+    margin: 15px auto;
+}
+footer .menu ul li
+{
+    width: 100%;
+    margin: 0 auto;
+}
+.redes
+{
+    width: 90%;
+    margin: 0 auto;
+}
+.banner1
+{
+    width: 80%;
+        
+}
+}
+@media only (max-width: 1024px) and (min-width: 768px)
+{
+    .dino
+{
+        position: relative;
+    margin-top: 0px;
+    transform: inherit;
+    opacity: 1;
+    width: 50%;
+    margin: 20px auto;
+    margin-right: 0px;
+}
+.combos
+{
+    flex-direction: column;
+}
+}
+
+/*ipaddddd----------------------*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  { /* STYLES GO HERE */
+.dino
+{
+        position: relative;
+    margin-top: 0px;
+    transform: inherit;
+    opacity: 1;
+    width: 50%;
+    margin: 20px auto;
+    margin-right: 0px;
+}
+.combos
+{
+    flex-direction: column;
+}
+.dino .dos
+{
+    width: 47%;
+}
+.dino
+{
+        position: relative;
+    margin-top: 0px;
+    transform: inherit;
+    opacity: 1;
+    width: 50%;
+    margin: 20px auto;
+    margin-right: 0px;
+}
+.combos
+{
+    flex-direction: column;
+}
+.terminostext
+{
+        width: 90%;
+    margin: 20px auto;
+    font-size: 15px;
+}
+.imageneslugares {
+    width: 90%!important;
+}
+.imageneslugares p{
+    font-size: 1em!important;
+}
+.incluyen
+{
+    width: 70%;
+}
+.doctor
+{
+        display: block;
+    width: 25%;
+    margin: 10px auto;
+}
+#formularios .dino
+{
+    display: none!important;
+}
+#formularios .banner1
+{
+    height: auto!important;
+    widows: 100%!important;
+}
+
+
+    body
+    {
+        background-size: cover;
+    }
+    .combo1
+    {
+        width: 90%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .dino
+    {
+        width: 100%;
+        margin: 20px auto;
+    }
+    .textinfo
+    {
+        width: 90%;
+        margin: 0 auto;
+        font-size: 30px;
+    }
+    .text1 p
+    {
+        font-size: 12px;
+    }
+    .fondoblanco
+    {
+        object-fit: cover;
+    }
+    .pedilo
+    {
+        width: 90%;
+    }
+    .pedilo
+    {
+        font-size: 20px;
+    }
+    .pedirtext
+    {
+        font-size: 20px;
+    
+    }
+    .terminos, .pedilo p
+    {
+        text-align: center;
+        font-size:18px!important;
+    }
+    #formularios
+    {
+        flex-wrap: wrap
+    }
+    #formularios > div
+    {
+        width: 90%;
+        margin: 70px auto;
+        height: 650px;
+    }
+    #btnform, #btnform2, #btnform3, #btnform4
+    {
+        font-size: 1em!important;
+    }
+    .redes
+    {
+        width: 30%;
+        margin: 0 auto;
+    }
+    .banner1
+    {
+        width: 100%;
+    }
+
+    .cuerpo
+    {
+    	height: 2250px;
+    }
+    .textform3
+    {
+    	margin: 0 auto;
+    }
+    .pequeñoform
+{
+    width: 100%!important;
+}
+}
+
+
+
+@media only screen and (min-device-width : 668px) 
+and (max-device-width : 812px)   { /* STYLES GO HERE */
+   .dino .uno
+{
+    width: 35%;
+}
+.imageneslugares {
+    width: 90%!important;
+}
+.imageneslugares p{
+    font-size: 1em!important;
+}
+.dino .dos{
+    margin-top: -125px;
+    width: 55%;
+}
+   .pequeñoform
+{
+    width: 100%!important;
+}
+.incluyen
+{
+    width: 70%;
+}
+   .terminostext
+{
+        width: 90%;
+    margin: 20px auto;
+    font-size: 15px;
+}
+   #logo img
+   {
+    display: flex;
+    widows: 50%;
+    margin: 10px auto;
+   }
+.doctor
+{
+        display: block;
+    width: 25%;
+    margin: 10px auto;
+}
+#formularios .dino
+{
+    display: none!important;
+}
+#formularios .banner1
+{
+    height: auto!important;
+    widows: 100%!important;
+}
+
+    .cuerpo
+    {
+        height: 2000px;
+    }
+    .redes,
+    footer .logo
+
+    {
+        width: 50%;
+        margin: 20px auto;
+    }
+    #btnform, #btnform2, #btnform3, #btnform4 {
+        font-size: 2em!important;
+    }
+    body
+{
+    background-size: cover;
+}
+.combo1
+{
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+.dino
+{
+    width: 100%;
+    margin: 20px auto;
+}
+.textinfo
+{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 30px;
+}
+.text1 p
+{
+    font-size: 12px;
+}
+.fondoblanco
+{
+    object-fit: cover;
+}
+.pedilo
+{
+    width: 90%;
+    padding: 0px;
+}
+.pedilo
+{
+    font-size: 20px;
+}
+.pedirtext
+{
+    font-size: 20px;
+
+}
+.terminos, .pedilo p
+{
+    text-align: center;
+    font-size:18px!important;
+}
+#formularios
+{
+    flex-wrap: wrap
+}
+#formularios > div
+{
+    width: 90%!important;
+    margin: 70px auto;
+}
+#btnform, #btnform2, #btnform3, #btnform4
+{
+    font-size: 1em!important;
+}
+footer .logo
+{    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+
+}
+footer .menu
+{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+footer .menu ul
+{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    align-items: center;
+    left: -40px;
+    margin: 15px auto;
+}
+footer .menu ul li
+{
+    width: 100%;
+    margin: 0 auto;
+}
+.redes
+{
+    width: 40%;
+    margin: 20px auto;
+}
+.banner1
+{
+    width: 100%;
+}
+.dino
+{
+    width: 25%;
+}
+.dino .dos
+{
+width: 50%;
+}
+}
+
+
+@media only screen  and (min-device-width: 1024px)
+ and (max-device-width: 1366px) 
+  and (orientation: landscape) 
+ {
+.estoesipad .pequeñoform
+{
+    width: 100%!important;
+}
+.dino
+{
+    width: 25%;
+}
+.dino .dos
+{
+width: 50%;
+}
+
+.imageneslugares {
+    width: 90%!important;
+}
+.imageneslugares p{
+    font-size: 1em!important;
+}
+.terminostext
+{
+        width: 90%;
+    margin: 20px auto;
+    font-size: 15px;
+}
+  	.estoesipad .cuerpo{
+  		height: 2200px;
+  	}
+  	 
+.estoesipad .pedilo
+{
+    width: 90%;
+}
+.estoesipad .pedilo
+{
+    font-size: 20px;
+}
+.estoesipad .pedirtext
+{
+    font-size: 20px;
+
+}
+.estoesipad .terminos, .estoesipad .pedilo p
+{
+    text-align: center;
+    font-size:18px!important;
+}
+.estoesipad #formularios
+{
+    flex-wrap: wrap
+}
+.estoesipad #formularios > div
+{
+    width: 90%;
+    margin: 70px auto;
+    height: 650px;
+}
+.estoesipad #btnform, 
+.estoesipad #btnform2,
+.estoesipad #btnform3, 
+.estoesipad #btnform4
+{
+    font-size: 1em!important;
+}
+#formularios .dino
+{
+
+}
+}
+
+#formularios .dino
+{
+width: 25%!important;
+}

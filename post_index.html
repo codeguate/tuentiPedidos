@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script src='https://www.google.com/recaptcha/api.js'></script>
+<script>
+var conditionBTN = false;
+
+function enableForm(){
+    conditionBTN = true;
+}
+
+$(document).ready(function(){
+  $("button").click(function(){
+   if (conditionBTN) {
+    var secret = "6LesEIQUAAAAAMAr2zZMc5MRd957-wWSzc4YA2Va";
+    var captcha_response = grecaptcha.getResponse();
+    var json = {secret:secret, response:captcha_response};
+    var condition = false;
+
+    $.ajax({
+          type: 'POST',
+          url: 'https://www.google.com/recaptcha/api/siteverify',
+          data: json,
+          success: function (data) {
+                            condition = true;
+          },
+          dataType: "application/x-www-form-urlencoded; charset=UTF-8"
+    });
+
+
+    // $.ajax({
+    //                     url: 'https://www.google.com/recaptcha/api/siteverify',
+    //                     type: 'GET',
+    //                     dataType: 'json',
+    //                     crossDomain: true,
+    //                     contentType: 'application/json',
+    //                     data: json,
+    //                      success: function (data) {
+    //                         condition = true;
+    //                     }
+    // });
+
+    
+        window.location.replace("https://google.com");
+    }else{
+        alert('Debe completar el captcha.');
+        return false;
+    }
+
+  });
+});
+</script>
+</head>
+<body>
+
+<div id="div1"><h2>Ajax</h2></div>
+<form>
+    <button>POST External Content</button>
+    <div class="g-recaptcha" data-sitekey="6LesEIQUAAAAANZU99pAupDQP2mfAM2yhHpWGyTv" data-callback="enableForm"></div>
+</form>
+
+
+</body>
+</html>
