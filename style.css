@@ -918,3 +918,13 @@ margin-top: 14px;
 #row_why{
   font-size: 1.7em;
 }
+.content_img_promo{
+  width: 55%;
+  margin: auto;
+  display: block;
+}
+@media only screen and (max-width: 1000px){
+  .content_img_promo{
+    width: 100%;
+  }
+}
